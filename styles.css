@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+ body {
+        font-family: 'Open Sans', serif;
+        font-size: 48px;
+ }
+ ul.a {
+     list-style-type: circle;
+ }
+ p {
+     font-size: 18px;
+ }
+ #header {
+    background-color:#277fab;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+ 
+ 
+
+ 
+ #nav {
+    line-height:12px;
+    background-color:#eeeeee;
+    height:300px;
+    width:300px;
+    float:left;
+    padding:5px; 
+}
+#section {
+    width:550px;
+    float:left;
+    padding:10px; 
+}
+
+#section2 {
+    width:750px;
+    float:left;
+    padding:10px; 
+}
+
+#footer {
+    background-color:#277fab;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+     
+}
+#titol {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #777;
+    float: none;
+    background-color: white
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #777;
+}
+
+
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+-- INSERT --
