@@ -1,75 +1,257 @@
-CTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!doctype html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Claus de la digitalització en l'entorn empresarial</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>Introdución a Swift</title>
+
 </head>
-<body style="background-color:#FFFFFF;font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;">
-<a name="dalt"></a>
-<p align="right">  Clica <a href="#baix">aquí</a> per anar a baix </p>
-<a href="../index.html"><img src="enrera.png" alt="Tornar al index" style="width:30px;height:30px;" ></a>
+<body>
+<h1>Introdución a Swift</h1>
 
-  <br><br><br>
+<p>El curso esta desglosado en proyectos independientes en los que progresivamente se
+muestran  de una forma práctica los nuevas caracteristicas del lenguaje
+(programación orientada a protocolos, opcionales, programacion funcional). Durante el
+curso se indicará al como acceder a recursos avanazados para consolidar los conceptos
+vistos en la formación.</p>
 
+<p> Además de las nuevas caracteristicas que introduce Swift se explicaran las buenas
+ practicas para gestionar un proyecto (gestión de versiones con Git, TDD, automatización
+ de de los procesos de compilación y subida a la AppStore, uso de herramientas de
+ monitorización)</p>
 
+<hr />
 
-  <table border="0" bgcolor="#F6F6EF" style="width:80%" align ="center">
-     <thead style="background: #ff0000;">
-       <tr><td> <center><h1>Claus de la digitalització a l'entorn empresarial</h1></center></td></tr></thead>
-    <tr><td> <br></td></tr>
-    <tr><td>
-      <h3>Els hàbits de consum estan canviant. El directius:</h3>
-   <ul>
-     <li>Olga San Jacinto de <a href="http://www.google.com/" target="_blank">Google Amèrica</a></li>
-     <li>Sarah Harmon de <a href="https://es.linkedin.com/" target="_blank">LinkedIn España y Portugal, </a> i</li>
-     <li>Enrique Burgos de <a href="http://www.cocacolaiberianpartners.com/" target="_blank">Coca-Cola Iberia</a></li>
-   </ul>
-     <h3>ens expliquen les claus de la digitalizació empresarial en set punts:</h3>
+<p><strong>Dia 1.</strong></p>
 
-<!-- <h5>  -->
- <ol>
-   <li style='color: #828282;margin: 40px;'><span style='color:black;"font-weight: normal;"'><b>Dispositius mòbils</b>
-Els usuaris utilitzen els dispositius mòbils cada vegada més. Les empreses com Coca-Cola o LinkedIn  son conscients d'aquest canvi i s'han d'adaptar. </span></li>
-   <li style='color: #828282;margin: 40px;'><span style='color:black'><b>Coneixement digital</b>
-Les petites i mitjanes empreses son les que tenen més dificil adaptar-se a la nova situació. A l'estar el coneixement en les startups i els emprenedors, es recomana que aquestes empreses comparteixin part del seu temps amb empreses innovadores. </span></li>
-   <li style='color: #828282;margin: 40px;'><span style='color:black'><b>Reputació</b>
-Actualement es molt important treballar la reputació professional, ja que les noves formes de treballar (economia colaborativa, que atorga més flexibilitat a les companyies) exigeix una estratègia de comunicació bidireccional. </span></li>
-<li style='color: #828282;margin: 40px;'><span style='color:black'><b>Marca</b>
-La importància de la marca de l'empresa es cada vegada més gran. </span></li>
-<li style='color: #828282;margin: 40px;'><span style='color:black'><b>Big Data</b>
-El <i>Big Data</i>, es a dir el processament de grans conglomerats de dades, ofereix noves possibilitats econòmiques a les empreses. Un frè a aprofitar el seu valor es la manca de joves formats en aquesta tecnologia.  </span></li>
-<li style='color: #828282;margin: 40px;'><span style='color:black'><b>Innovació</b>
-La innovació ha de sorgir de tots els departaments de l'empresa. Es recomana utilitzar els coneixements dels joves emprenedors. Moltes vegades la innovació sorgeix del procés de prova i error.  </span></li>
-<li style='color: #828282;margin: 40px;'><span style='color:black'><b>Format del contingut</b>
-La tendencia a l'hora d'oferir bens i serveis es la de primar el format video en comptes de formats basats en text. També es recomana a les empreses el networking ditital, crear continguts virals i compartir-los en xarxes socials. També s'assenyala la importància de crear estratègies dinàmiques que permetin avançar.  </span> </li>
- </ol>
- <!-- <h5>  -->
+<pre><code>AutoLayout + NSStackView
+IBOutlet, IBAction, Segues  
+Introducción a la sintaxis de Swift
+Optionals, unwraping optionals, Optional binding, multiple optional binding
+</code></pre>
 
-</td></tr>
-</table>
+<hr />
 
-<hr style='color: #ff0000;background-color: #f00;width:80%;height:2'>
+<p><strong>Dia 2</strong>.</p>
 
-  <div><center> Resum de <a href="http://www.expansion.com/empresas/2015/06/20/55859148ca4741f6268b4573.html" target="_blank">l'article de Catarina Valente</a> publicat al diari econòmic Expansion el 16/10/2015.
-<p> PAC1 de l'assignatura <i>"Tècniques d'edició digital"</i></p>
-  <address> Aquesta pagina ha estat elaborada per Joan Barrull</address>
-  <p>Informació de contacte: <a href="mailto:jbarrull@uoc.edu">jbarrull@uoc.edu</a></p>
+<pre><code>   UIKit
+   UIButton, UILabel, UISlider, UIAlert  
+   Dependency injection to pass information between ViewControllers 
+   NSUSerDefaults
+</code></pre>
 
-  </center>
-</div>
-<hr style='color: #ff0000;background-color: #f00;width:80%;height:2'>
-<table border="1" bgcolor="#F6F6EF" style="width:80%" align ="center">
-  <tr><th style="width:20%;align:center">Data</th><th>Descripció</th></th>
-  <tr><td>1 Mars 2016</td><td>Primera versió</td></tr>
-  <tr><td>23 Mars 2016</td><td>Validació HTML</td></tr>
-</table>
-<p>
-    <a href="http://validator.w3.org/check?uri=referer"><img
-      src="http://www.w3.org/Icons/valid-html401" alt="Valid HTML 4.01 Transitional" height="31" width="88"></a>
-  </p>
-  <a name="baix"></a>
-    <p align="right">   Clica <a href="#dalt">aquí</a> per anar a dalt </p>
+<hr />
+
+<p><strong>Dia 3</strong>.</p>
+
+<pre><code>   iOS Networking
+   Networking and Web services
+   Parsing JSON
+   Networking with MVC
+   ATS App Transport Security
+   Perfom Asyncronous operation on iOS (Grand Central Dispatch)
+   Authentication, Authorization
+   Network reliability
+</code></pre>
+
+<hr />
+
+<p><strong>Dia 4</strong>.</p>
+
+<pre><code>   Closures
+   Grand Central Dispatch y tareas asincronas
+</code></pre>
+
+<hr />
+
+<p><strong>Dia 5</strong>.</p>
+
+<pre><code> NSCoder/NSKeyedArchiver  
+ Persistent Objects &amp; Core Data  
+ Core Data  
+</code></pre>
+
+<hr />
+
+<hr />
+
+<h2>Student Resources:</h2>
+
+<p><strong>Swift Education</strong>
+http://swifteducation.github.io</p>
+
+<p><strong>Libro Swift Apple</strong><br/>
+https://itunes.apple.com/us/book/the-swift-programming-language/id881256329?mt=11</p>
+
+<p><strong> Start Learning Swift </strong>
+https://developer.apple.com/library/ios/referencelibrary/GettingStarted/DevelopiOSAppsSwift/index.html?utm_source=statuscode&amp;utm_medium=email</p>
+
+<p>Durante el curso se analizaran herramientas de terceros utilizadas de forma habitual
+para crear aplicaciones:<br/>
+<strong>Postman</strong> <br/>
+https://chrome.google.com/webstore/detail/postman-rest-client-short<br/>
+<strong>Sketch</strong><br/>
+http://www.sketchapp.com <br/>
+<strong>MitmProxy</strong>
+https://mitmproxy.org<br/>
+<strong>PaintCode</strong>
+http://www.paintcodeapp.com</p>
+
+<h2>Requisitos</h2>
+
+<p>El curso asume que el alumno tiene experiencia previa con algun lenguaje de
+programación. Especificamente debe conocer los conceptos de variables, sentencias,
+loops, funciones y clases.
+ El alumno dispondra de equipos Mac con la ultima versión de XCode. Al principio
+ del curso se ejecutará el primer proyecto para validar el software y hardware disponible.</p>
 </body>
 </html>
-
-
