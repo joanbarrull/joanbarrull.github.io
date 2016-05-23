@@ -1,11 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans);
  body {
         font-family: 'Open Sans', serif;
         font-size: 48px;
  }
+ 
  ul.a {
      list-style-type: circle;
+     font-size: 18px;
  }
+ 
  p {
      font-size: 18px;
  }
@@ -44,13 +47,29 @@
     color:white;
     clear:both;
     text-align:center;
-    padding:5px;
+    padding:10px;
      
 }
+#resum {
+    font-size: 18px;
+    text-align: justify;
+    color:black;
+    background-color: #fff6eb;
+    border: 1px solid #CCC;
+    padding: 20px;
+    margin: 25px;
+}
+
 #titol {
     font-size: 50px;
     font-weight: bold;
     text-align: center;
+}
+#subtitol {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color:blue;
 }
 
 div.img {
@@ -65,28 +84,23 @@ div.desc {
     font-size: 18px;
     border: 1px solid #777;
 }
+#actualitzacio {
+    padding: 5px;
+    text-align: right;
+    font-size: 45px;
+    border: 1px dotted #eeeeee;
+    color: #a2a2a2
+    ;
+    background-color: #eeeeee
+     
+}
+#noticia {
+    padding: 15px;
+    text-align: left;
+    font-size: 22px;
+    border: 1px solid #777;
+    color: black;
+    background-color: #BBB
+     
+}
 
-
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
--- INSERT --
